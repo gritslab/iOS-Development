@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC480F919A6623100D57911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480F819A6623100D57911 /* Foundation.framework */; };
+		ACC480FB19A6623100D57911 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480FA19A6623100D57911 /* CoreGraphics.framework */; };
+		ACC480FD19A6623100D57911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480FC19A6623100D57911 /* UIKit.framework */; };
+		ACC4810319A6623100D57911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACC4810119A6623100D57911 /* InfoPlist.strings */; };
+		ACC4810519A6623100D57911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC4810419A6623100D57911 /* main.m */; };
+		ACC4810919A6623100D57911 /* GRITSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC4810819A6623100D57911 /* GRITSAppDelegate.m */; };
+		ACC4810B19A6623100D57911 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC4810A19A6623100D57911 /* Images.xcassets */; };
+		ACC4811219A6623100D57911 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC4811119A6623100D57911 /* XCTest.framework */; };
+		ACC4811319A6623100D57911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480F819A6623100D57911 /* Foundation.framework */; };
+		ACC4811419A6623100D57911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480FC19A6623100D57911 /* UIKit.framework */; };
+		ACC4811C19A6623100D57911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACC4811A19A6623100D57911 /* InfoPlist.strings */; };
+		ACC4811E19A6623100D57911 /* DensityBased_GeometricCoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC4811D19A6623100D57911 /* DensityBased_GeometricCoverageTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC4811519A6623100D57911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC480ED19A6623000D57911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC480F419A6623000D57911;
+			remoteInfo = "DensityBased-GeometricCoverage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC480F519A6623000D57911 /* DensityBased-GeometricCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DensityBased-GeometricCoverage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC480F819A6623100D57911 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACC480FA19A6623100D57911 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACC480FC19A6623100D57911 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACC4810019A6623100D57911 /* DensityBased-GeometricCoverage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DensityBased-GeometricCoverage-Info.plist"; sourceTree = "<group>"; };
+		ACC4810219A6623100D57911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACC4810419A6623100D57911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACC4810619A6623100D57911 /* DensityBased-GeometricCoverage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DensityBased-GeometricCoverage-Prefix.pch"; sourceTree = "<group>"; };
+		ACC4810719A6623100D57911 /* GRITSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRITSAppDelegate.h; sourceTree = "<group>"; };
+		ACC4810819A6623100D57911 /* GRITSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRITSAppDelegate.m; sourceTree = "<group>"; };
+		ACC4810A19A6623100D57911 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACC4811019A6623100D57911 /* DensityBased-GeometricCoverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DensityBased-GeometricCoverageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC4811119A6623100D57911 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ACC4811919A6623100D57911 /* DensityBased-GeometricCoverageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DensityBased-GeometricCoverageTests-Info.plist"; sourceTree = "<group>"; };
+		ACC4811B19A6623100D57911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACC4811D19A6623100D57911 /* DensityBased_GeometricCoverageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DensityBased_GeometricCoverageTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC480F219A6623000D57911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC480FB19A6623100D57911 /* CoreGraphics.framework in Frameworks */,
+				ACC480FD19A6623100D57911 /* UIKit.framework in Frameworks */,
+				ACC480F919A6623100D57911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4810D19A6623100D57911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4811219A6623100D57911 /* XCTest.framework in Frameworks */,
+				ACC4811419A6623100D57911 /* UIKit.framework in Frameworks */,
+				ACC4811319A6623100D57911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC480EC19A6623000D57911 = {
+			isa = PBXGroup;
+			children = (
+				ACC480FE19A6623100D57911 /* DensityBased-GeometricCoverage */,
+				ACC4811719A6623100D57911 /* DensityBased-GeometricCoverageTests */,
+				ACC480F719A6623100D57911 /* Frameworks */,
+				ACC480F619A6623000D57911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC480F619A6623000D57911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC480F519A6623000D57911 /* DensityBased-GeometricCoverage.app */,
+				ACC4811019A6623100D57911 /* DensityBased-GeometricCoverageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC480F719A6623100D57911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACC480F819A6623100D57911 /* Foundation.framework */,
+				ACC480FA19A6623100D57911 /* CoreGraphics.framework */,
+				ACC480FC19A6623100D57911 /* UIKit.framework */,
+				ACC4811119A6623100D57911 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACC480FE19A6623100D57911 /* DensityBased-GeometricCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4810719A6623100D57911 /* GRITSAppDelegate.h */,
+				ACC4810819A6623100D57911 /* GRITSAppDelegate.m */,
+				ACC4810A19A6623100D57911 /* Images.xcassets */,
+				ACC480FF19A6623100D57911 /* Supporting Files */,
+			);
+			path = "DensityBased-GeometricCoverage";
+			sourceTree = "<group>";
+		};
+		ACC480FF19A6623100D57911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4810019A6623100D57911 /* DensityBased-GeometricCoverage-Info.plist */,
+				ACC4810119A6623100D57911 /* InfoPlist.strings */,
+				ACC4810419A6623100D57911 /* main.m */,
+				ACC4810619A6623100D57911 /* DensityBased-GeometricCoverage-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACC4811719A6623100D57911 /* DensityBased-GeometricCoverageTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4811D19A6623100D57911 /* DensityBased_GeometricCoverageTests.m */,
+				ACC4811819A6623100D57911 /* Supporting Files */,
+			);
+			path = "DensityBased-GeometricCoverageTests";
+			sourceTree = "<group>";
+		};
+		ACC4811819A6623100D57911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC4811919A6623100D57911 /* DensityBased-GeometricCoverageTests-Info.plist */,
+				ACC4811A19A6623100D57911 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC480F419A6623000D57911 /* DensityBased-GeometricCoverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4812119A6623100D57911 /* Build configuration list for PBXNativeTarget "DensityBased-GeometricCoverage" */;
+			buildPhases = (
+				ACC480F119A6623000D57911 /* Sources */,
+				ACC480F219A6623000D57911 /* Frameworks */,
+				ACC480F319A6623000D57911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DensityBased-GeometricCoverage";
+			productName = "DensityBased-GeometricCoverage";
+			productReference = ACC480F519A6623000D57911 /* DensityBased-GeometricCoverage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC4810F19A6623100D57911 /* DensityBased-GeometricCoverageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC4812419A6623100D57911 /* Build configuration list for PBXNativeTarget "DensityBased-GeometricCoverageTests" */;
+			buildPhases = (
+				ACC4810C19A6623100D57911 /* Sources */,
+				ACC4810D19A6623100D57911 /* Frameworks */,
+				ACC4810E19A6623100D57911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC4811619A6623100D57911 /* PBXTargetDependency */,
+			);
+			name = "DensityBased-GeometricCoverageTests";
+			productName = "DensityBased-GeometricCoverageTests";
+			productReference = ACC4811019A6623100D57911 /* DensityBased-GeometricCoverageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC480ED19A6623000D57911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GRITS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GRITS;
+				TargetAttributes = {
+					ACC4810F19A6623100D57911 = {
+						TestTargetID = ACC480F419A6623000D57911;
+					};
+				};
+			};
+			buildConfigurationList = ACC480F019A6623000D57911 /* Build configuration list for PBXProject "DensityBased-GeometricCoverage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACC480EC19A6623000D57911;
+			productRefGroup = ACC480F619A6623000D57911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC480F419A6623000D57911 /* DensityBased-GeometricCoverage */,
+				ACC4810F19A6623100D57911 /* DensityBased-GeometricCoverageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC480F319A6623000D57911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4810319A6623100D57911 /* InfoPlist.strings in Resources */,
+				ACC4810B19A6623100D57911 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4810E19A6623100D57911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4811C19A6623100D57911 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC480F119A6623000D57911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4810919A6623100D57911 /* GRITSAppDelegate.m in Sources */,
+				ACC4810519A6623100D57911 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC4810C19A6623100D57911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC4811E19A6623100D57911 /* DensityBased_GeometricCoverageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC4811619A6623100D57911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC480F419A6623000D57911 /* DensityBased-GeometricCoverage */;
+			targetProxy = ACC4811519A6623100D57911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACC4810119A6623100D57911 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC4810219A6623100D57911 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACC4811A19A6623100D57911 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC4811B19A6623100D57911 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC4811F19A6623100D57911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ACC4812019A6623100D57911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC4812219A6623100D57911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Prefix.pch";
+				INFOPLIST_FILE = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACC4812319A6623100D57911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Prefix.pch";
+				INFOPLIST_FILE = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACC4812519A6623100D57911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DensityBased-GeometricCoverage.app/DensityBased-GeometricCoverage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DensityBased-GeometricCoverageTests/DensityBased-GeometricCoverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ACC4812619A6623100D57911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DensityBased-GeometricCoverage.app/DensityBased-GeometricCoverage";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Prefix.pch";
+				INFOPLIST_FILE = "DensityBased-GeometricCoverageTests/DensityBased-GeometricCoverageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC480F019A6623000D57911 /* Build configuration list for PBXProject "DensityBased-GeometricCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4811F19A6623100D57911 /* Debug */,
+				ACC4812019A6623100D57911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC4812119A6623100D57911 /* Build configuration list for PBXNativeTarget "DensityBased-GeometricCoverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4812219A6623100D57911 /* Debug */,
+				ACC4812319A6623100D57911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACC4812419A6623100D57911 /* Build configuration list for PBXNativeTarget "DensityBased-GeometricCoverageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC4812519A6623100D57911 /* Debug */,
+				ACC4812619A6623100D57911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC480ED19A6623000D57911 /* Project object */;
+}
