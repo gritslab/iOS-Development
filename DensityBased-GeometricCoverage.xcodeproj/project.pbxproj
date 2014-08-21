@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACA9556B19A66579007E25F5 /* CommunicationProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACA9555D19A66579007E25F5 /* CommunicationProtocol.cpp */; };
+		ACA9556C19A66579007E25F5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA9555E19A66579007E25F5 /* MainStoryboard.storyboard */; };
+		ACA9556D19A66579007E25F5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA9555F19A66579007E25F5 /* MainViewController.m */; };
+		ACA9556E19A66579007E25F5 /* Emitter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ACA9556219A66579007E25F5 /* Emitter.fsh */; };
+		ACA9556F19A66579007E25F5 /* Emitter.vsh in Resources */ = {isa = PBXBuildFile; fileRef = ACA9556419A66579007E25F5 /* Emitter.vsh */; };
+		ACA9557019A66579007E25F5 /* plotter.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACA9556519A66579007E25F5 /* plotter.mm */; };
+		ACA9557119A66579007E25F5 /* EmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA9556819A66579007E25F5 /* EmitterShader.m */; };
+		ACA9557219A66579007E25F5 /* ShaderProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACA9556919A66579007E25F5 /* ShaderProcessor.mm */; };
 		ACC480F919A6623100D57911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480F819A6623100D57911 /* Foundation.framework */; };
 		ACC480FB19A6623100D57911 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480FA19A6623100D57911 /* CoreGraphics.framework */; };
 		ACC480FD19A6623100D57911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480FC19A6623100D57911 /* UIKit.framework */; };
@@ -32,6 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ACA9555D19A66579007E25F5 /* CommunicationProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommunicationProtocol.cpp; sourceTree = "<group>"; };
+		ACA9555E19A66579007E25F5 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		ACA9555F19A66579007E25F5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		ACA9556019A66579007E25F5 /* CommunicationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationProtocol.h; sourceTree = "<group>"; };
+		ACA9556119A66579007E25F5 /* EmitterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterTemplate.h; sourceTree = "<group>"; };
+		ACA9556219A66579007E25F5 /* Emitter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.fsh; sourceTree = "<group>"; };
+		ACA9556319A66579007E25F5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ACA9556419A66579007E25F5 /* Emitter.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.vsh; sourceTree = "<group>"; };
+		ACA9556519A66579007E25F5 /* plotter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = plotter.mm; sourceTree = "<group>"; };
+		ACA9556619A66579007E25F5 /* plotter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plotter.h; sourceTree = "<group>"; };
+		ACA9556719A66579007E25F5 /* EmitterShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterShader.h; sourceTree = "<group>"; };
+		ACA9556819A66579007E25F5 /* EmitterShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterShader.m; sourceTree = "<group>"; };
+		ACA9556919A66579007E25F5 /* ShaderProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShaderProcessor.mm; sourceTree = "<group>"; };
+		ACA9556A19A66579007E25F5 /* ShaderProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShaderProcessor.h; sourceTree = "<group>"; };
 		ACC480F519A6623000D57911 /* DensityBased-GeometricCoverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DensityBased-GeometricCoverage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC480F819A6623100D57911 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACC480FA19A6623100D57911 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +129,20 @@
 		ACC480FE19A6623100D57911 /* DensityBased-GeometricCoverage */ = {
 			isa = PBXGroup;
 			children = (
+				ACA9555D19A66579007E25F5 /* CommunicationProtocol.cpp */,
+				ACA9555E19A66579007E25F5 /* MainStoryboard.storyboard */,
+				ACA9555F19A66579007E25F5 /* MainViewController.m */,
+				ACA9556019A66579007E25F5 /* CommunicationProtocol.h */,
+				ACA9556119A66579007E25F5 /* EmitterTemplate.h */,
+				ACA9556219A66579007E25F5 /* Emitter.fsh */,
+				ACA9556319A66579007E25F5 /* MainViewController.h */,
+				ACA9556419A66579007E25F5 /* Emitter.vsh */,
+				ACA9556519A66579007E25F5 /* plotter.mm */,
+				ACA9556619A66579007E25F5 /* plotter.h */,
+				ACA9556719A66579007E25F5 /* EmitterShader.h */,
+				ACA9556819A66579007E25F5 /* EmitterShader.m */,
+				ACA9556919A66579007E25F5 /* ShaderProcessor.mm */,
+				ACA9556A19A66579007E25F5 /* ShaderProcessor.h */,
 				ACC4810719A6623100D57911 /* GRITSAppDelegate.h */,
 				ACC4810819A6623100D57911 /* GRITSAppDelegate.m */,
 				ACC4810A19A6623100D57911 /* Images.xcassets */,
@@ -220,6 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA9556F19A66579007E25F5 /* Emitter.vsh in Resources */,
+				ACA9556E19A66579007E25F5 /* Emitter.fsh in Resources */,
+				ACA9556C19A66579007E25F5 /* MainStoryboard.storyboard in Resources */,
 				ACC4810319A6623100D57911 /* InfoPlist.strings in Resources */,
 				ACC4810B19A6623100D57911 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA9557019A66579007E25F5 /* plotter.mm in Sources */,
 				ACC4810919A6623100D57911 /* GRITSAppDelegate.m in Sources */,
 				ACC4810519A6623100D57911 /* main.m in Sources */,
+				ACA9557219A66579007E25F5 /* ShaderProcessor.mm in Sources */,
+				ACA9557119A66579007E25F5 /* EmitterShader.m in Sources */,
+				ACA9556B19A66579007E25F5 /* CommunicationProtocol.cpp in Sources */,
+				ACA9556D19A66579007E25F5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +484,7 @@
 				ACC4812319A6623100D57911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACC4812419A6623100D57911 /* Build configuration list for PBXNativeTarget "DensityBased-GeometricCoverageTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +493,7 @@
 				ACC4812619A6623100D57911 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

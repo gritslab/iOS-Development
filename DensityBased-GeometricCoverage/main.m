@@ -1,8 +1,8 @@
 //
 //  main.m
-//  DensityBased-GeometricCoverage
+//  GLParticles1
 //
-//  Created by GRITS on 8/21/14.
+//  Created by GRITS on 3/14/14.
 //  Copyright (c) 2014 GRITS. All rights reserved.
 //
 
