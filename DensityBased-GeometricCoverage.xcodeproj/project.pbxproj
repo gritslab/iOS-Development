@@ -12,7 +12,6 @@
 		ACA9556D19A66579007E25F5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA9555F19A66579007E25F5 /* MainViewController.m */; };
 		ACA9556E19A66579007E25F5 /* Emitter.fsh in Resources */ = {isa = PBXBuildFile; fileRef = ACA9556219A66579007E25F5 /* Emitter.fsh */; };
 		ACA9556F19A66579007E25F5 /* Emitter.vsh in Resources */ = {isa = PBXBuildFile; fileRef = ACA9556419A66579007E25F5 /* Emitter.vsh */; };
-		ACA9557019A66579007E25F5 /* plotter.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACA9556519A66579007E25F5 /* plotter.mm */; };
 		ACA9557119A66579007E25F5 /* EmitterShader.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA9556819A66579007E25F5 /* EmitterShader.m */; };
 		ACA9557219A66579007E25F5 /* ShaderProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = ACA9556919A66579007E25F5 /* ShaderProcessor.mm */; };
 		ACC480F919A6623100D57911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480F819A6623100D57911 /* Foundation.framework */; };
@@ -27,6 +26,8 @@
 		ACC4811419A6623100D57911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC480FC19A6623100D57911 /* UIKit.framework */; };
 		ACC4811C19A6623100D57911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACC4811A19A6623100D57911 /* InfoPlist.strings */; };
 		ACC4811E19A6623100D57911 /* DensityBased_GeometricCoverageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC4811D19A6623100D57911 /* DensityBased_GeometricCoverageTests.m */; };
+		ACC4F2B719A7A4D200369A77 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC4F2B619A7A4D200369A77 /* GLKit.framework */; };
+		ACC4F2B919A7A4E400369A77 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC4F2B819A7A4E400369A77 /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +49,6 @@
 		ACA9556219A66579007E25F5 /* Emitter.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.fsh; sourceTree = "<group>"; };
 		ACA9556319A66579007E25F5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		ACA9556419A66579007E25F5 /* Emitter.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Emitter.vsh; sourceTree = "<group>"; };
-		ACA9556519A66579007E25F5 /* plotter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = plotter.mm; sourceTree = "<group>"; };
-		ACA9556619A66579007E25F5 /* plotter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plotter.h; sourceTree = "<group>"; };
 		ACA9556719A66579007E25F5 /* EmitterShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterShader.h; sourceTree = "<group>"; };
 		ACA9556819A66579007E25F5 /* EmitterShader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterShader.m; sourceTree = "<group>"; };
 		ACA9556919A66579007E25F5 /* ShaderProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShaderProcessor.mm; sourceTree = "<group>"; };
@@ -70,6 +69,9 @@
 		ACC4811919A6623100D57911 /* DensityBased-GeometricCoverageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DensityBased-GeometricCoverageTests-Info.plist"; sourceTree = "<group>"; };
 		ACC4811B19A6623100D57911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACC4811D19A6623100D57911 /* DensityBased_GeometricCoverageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DensityBased_GeometricCoverageTests.m; sourceTree = "<group>"; };
+		ACC4F2B419A7A23100369A77 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		ACC4F2B619A7A4D200369A77 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		ACC4F2B819A7A4E400369A77 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACC4F2B919A7A4E400369A77 /* OpenGLES.framework in Frameworks */,
+				ACC4F2B719A7A4D200369A77 /* GLKit.framework in Frameworks */,
 				ACC480FB19A6623100D57911 /* CoreGraphics.framework in Frameworks */,
 				ACC480FD19A6623100D57911 /* UIKit.framework in Frameworks */,
 				ACC480F919A6623100D57911 /* Foundation.framework in Frameworks */,
@@ -118,6 +122,9 @@
 		ACC480F719A6623100D57911 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACC4F2B819A7A4E400369A77 /* OpenGLES.framework */,
+				ACC4F2B619A7A4D200369A77 /* GLKit.framework */,
+				ACC4F2B419A7A23100369A77 /* libstdc++.dylib */,
 				ACC480F819A6623100D57911 /* Foundation.framework */,
 				ACC480FA19A6623100D57911 /* CoreGraphics.framework */,
 				ACC480FC19A6623100D57911 /* UIKit.framework */,
@@ -130,22 +137,20 @@
 			isa = PBXGroup;
 			children = (
 				ACA9555D19A66579007E25F5 /* CommunicationProtocol.cpp */,
-				ACA9555E19A66579007E25F5 /* MainStoryboard.storyboard */,
-				ACA9555F19A66579007E25F5 /* MainViewController.m */,
 				ACA9556019A66579007E25F5 /* CommunicationProtocol.h */,
-				ACA9556119A66579007E25F5 /* EmitterTemplate.h */,
 				ACA9556219A66579007E25F5 /* Emitter.fsh */,
-				ACA9556319A66579007E25F5 /* MainViewController.h */,
 				ACA9556419A66579007E25F5 /* Emitter.vsh */,
-				ACA9556519A66579007E25F5 /* plotter.mm */,
-				ACA9556619A66579007E25F5 /* plotter.h */,
 				ACA9556719A66579007E25F5 /* EmitterShader.h */,
 				ACA9556819A66579007E25F5 /* EmitterShader.m */,
-				ACA9556919A66579007E25F5 /* ShaderProcessor.mm */,
-				ACA9556A19A66579007E25F5 /* ShaderProcessor.h */,
+				ACA9556119A66579007E25F5 /* EmitterTemplate.h */,
 				ACC4810719A6623100D57911 /* GRITSAppDelegate.h */,
 				ACC4810819A6623100D57911 /* GRITSAppDelegate.m */,
 				ACC4810A19A6623100D57911 /* Images.xcassets */,
+				ACA9555E19A66579007E25F5 /* MainStoryboard.storyboard */,
+				ACA9556319A66579007E25F5 /* MainViewController.h */,
+				ACA9555F19A66579007E25F5 /* MainViewController.m */,
+				ACA9556A19A66579007E25F5 /* ShaderProcessor.h */,
+				ACA9556919A66579007E25F5 /* ShaderProcessor.mm */,
 				ACC480FF19A6623100D57911 /* Supporting Files */,
 			);
 			path = "DensityBased-GeometricCoverage";
@@ -279,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA9557019A66579007E25F5 /* plotter.mm in Sources */,
 				ACC4810919A6623100D57911 /* GRITSAppDelegate.m in Sources */,
 				ACC4810519A6623100D57911 /* main.m in Sources */,
 				ACA9557219A66579007E25F5 /* ShaderProcessor.mm in Sources */,
@@ -347,6 +351,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -356,13 +361,13 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				ONLY_ACTIVE_ARCH = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -386,15 +391,16 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -404,10 +410,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Prefix.pch";
 				INFOPLIST_FILE = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -417,10 +427,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Prefix.pch";
 				INFOPLIST_FILE = "DensityBased-GeometricCoverage/DensityBased-GeometricCoverage-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

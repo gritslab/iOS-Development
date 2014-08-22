@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 GRITS. All rights reserved.
 //
 
-#ifndef GLParticles1_communicationProtocol_h
-#define GLParticles1_communicationProtocol_h
+#ifndef DensityBased_GeometricCoverage_communicationProtocol_h
+#define DensityBased_GeometricCoverage_communicationProtocol_h
 
 #include <stdio.h>      /* for printf() and fprintf() */
 #include <sys/socket.h> /* for socket() and bind() */
